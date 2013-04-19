@@ -6,6 +6,13 @@ rack-rakeup adds a `rake` method to Rack's Builder DSL, allowing you to
 execute Rake tasks when configuring your Rack application, which helps to
 keep your code DRY.
 
+### Example
+
+```ruby
+require 'rack-rakeup'
+rake :task_name, 'another_task'
+```
+
 ## Motivation
 I found that a lot of the configuration steps I was using in my Rakefile were
 essentially duplicated from my project's `config.ru`. I decided to take the
