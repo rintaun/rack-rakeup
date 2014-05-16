@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
     s.files            = ['lib/rack-rakeup.rb', 'LICENSE']
     s.extra_rdoc_files = ['README.md']
     s.rdoc_options     = ['--charset=UTF-8']
-    s.add_runtime_dependency 'rack', '~> 1.5.2'
-    s.add_runtime_dependency 'rake', '~> 10.0.4'
+    s.add_runtime_dependency 'rack', '>= 1.5.2'
+    s.add_runtime_dependency 'rake', '>= 10.0.4'
 end
